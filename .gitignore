@@ -1,0 +1,10 @@
+# Docker Compose artifacts
+/.docker/
+
+# Editor files
+.vscode/
+.idea/
+
+# npm package locks
+/package-lock.json
+/yarn.lock

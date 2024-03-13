@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+
+# Build files
+/build/
+/dist/
+/out/
+
+# Dependency directories
+/.pnp/
+/.pnp.js
+
+# Environment variables file
+/.env
+
+# Editor files
+.vscode/
+.idea/
+
+# Docker artifacts
+/.docker/
+
+# Logs
+/logs/
+*.log
+
+# npm package locks
+/package-lock.json
+/yarn.lock

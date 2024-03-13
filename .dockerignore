@@ -1,0 +1,13 @@
+# Patrones de exclusión globales
+node_modules           # Excluye todos los directorios node_modules
+.git                   # Excluye el directorio .git y todos sus contenidos
+.env                   # Excluye el archivo .env
+
+# Patrones de exclusión para archivos y tipos específicos
+*.log                  # Excluye todos los archivos con extensión .log
+*.zip                  # Excluye todos los archivos con extensión .zip
+*.exe                  # Excluye todos los archivos ejecutables con extensión .exe
+
+# Exclusión de archivos o directorios específicos en una ruta determinada
+frontend/build         # Excluye el directorio build específicamente en la carpeta frontend
+backend/.env.prod      # Excluye el archivo .env.prod específicamente en la carpeta backend
